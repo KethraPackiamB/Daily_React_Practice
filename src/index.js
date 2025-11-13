@@ -3,16 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { Home } from "./Components/Home";
-import { AboutPage } from './Components/AboutPage';
-import {Demo} from "./Demo";
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
-   {/* <Home/>
-   <Demo/> */}
+  
   </React.StrictMode>
 );
 
