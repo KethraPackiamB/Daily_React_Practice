@@ -3,12 +3,14 @@ import './App.css';
 
 import { CallingAPI } from './Practicing/CallingAPI';
 import { ParentComponent } from './PropsConcept/ParentComponent';
+import { Component1 } from './UseContectConcept/Component1';
 
 function App() {
   return (
    <div>
    {/* <CallingAPI/> */}
-   <ParentComponent/>
+   {/* <ParentComponent/> */}
+   <Component1/>
    </div>
   );
 }

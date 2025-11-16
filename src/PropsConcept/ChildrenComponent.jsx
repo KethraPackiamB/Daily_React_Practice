@@ -13,6 +13,8 @@ export const ChildrenComponent = ({data, inputValue, jsonData}) => {
             <h1>{jsonData.name}</h1>
             <h1>{jsonData.age}</h1>
 
+           
+
 
             
         </div>

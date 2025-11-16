@@ -34,6 +34,8 @@ export const ParentComponent = () => {
         setJsonData({...jsonData, [key]: value})
     }
 
+   
+
     return(
         <div>
             <h1>Parent Component</h1>
@@ -48,7 +50,7 @@ export const ParentComponent = () => {
                 <input type="text" onChange={(e)=>handleJsonData("name", e.target.value)}/>
                 <label htmlFor="">Enter Your Age:</label>
                 <input type="text" onChange={(e)=>handleJsonData("age", e.target.value)}/>
-                <button>Save</button>
+                
             </form>
 
             
