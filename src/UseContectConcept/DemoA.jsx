@@ -1,19 +1,22 @@
-import { useState } from "react";
+import { createContext, useState } from "react";
 import { DemoB } from "./DemoB";
+
+
+export const ThemeContext = createContext();
 
 export const DemoA = () => {
 
-   const [theme, setTheme] = useState("dark");
+   const [theme, setTheme] = useState("light");
 
    const toggleTheme = () => {
-        setTheme
+        setTheme((curr)=>(curr === "light" ? "dark" : "light"));
    }
 
     return(
-        <div>
+        <ThemeContext.Provider value={{theme}}>
             <h1>Demo Component A</h1>
             <button onClick={toggleTheme}>Toggle Theme</button>
             <DemoB theme={theme}/>
-        </div>
+        </ThemeContext.Provider>
     )
 }
