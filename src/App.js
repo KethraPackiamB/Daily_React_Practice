@@ -11,8 +11,8 @@ function App() {
    <div>
    {/* <CallingAPI/> */}
    {/* <ParentComponent/> */}
-   {/* <Component1/> */}
-   <DemoA/>
+   <Component1/>
+   {/* <DemoA/> */}
    </div>
   );
 }

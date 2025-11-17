@@ -1,12 +1,14 @@
-import { Component4 } from "./Component4"
+import { useContext } from "react";
+import { MyContext } from "./Component1";
 
-export const Component3 = ({stringValue}) => {
+export const Component3 = () => {
+
+    const worldValue = useContext(MyContext);
 
     return(
         <div>
             <h1>Component 3</h1>
-            <p>{`This is ${stringValue}`}</p>
-            <Component4 stringValue={stringValue}/>
+            <h3>{worldValue}</h3>
         </div>
     )
 }
