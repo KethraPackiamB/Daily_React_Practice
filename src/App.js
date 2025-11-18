@@ -6,6 +6,7 @@ import { ParentComponent } from './PropsConcept/ParentComponent';
 import { Component1 } from './UseContectConcept/Component1';
 import { DemoA } from './UseContectConcept/DemoA';
 import { UserProfiles } from './SingleResponsibilityPrinciple/UserProfiles';
+import { ImplementingTheme } from './ThemeSwitcher/ImplementingTheme';
 
 
 function App() {
@@ -13,9 +14,10 @@ function App() {
    <div>
    {/* <CallingAPI/> */}
    {/* <ParentComponent/> */}
-   <Component1/>
+   {/* <Component1/> */}
    {/* <DemoA/> */}
   {/* <UserProfiles/> */}
+  <ImplementingTheme/>
    </div>
   );
 }
