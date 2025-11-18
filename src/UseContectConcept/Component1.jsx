@@ -23,7 +23,7 @@ export const Component1 = () => {
     return(
         <MyContext.Provider value={{
             string: string,
-            user: user
+            user: user,
         }}>
             <h1>Component 1</h1>
             <h2>{string}</h2>

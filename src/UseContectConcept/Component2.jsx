@@ -3,12 +3,12 @@ import { MyContext } from "./Component1"
 
 export const Component2 = () => {
 
-    const userDetails = useContext(MyContext);
+    const {user} = useContext(MyContext);
 
     return(
         <div>
             <h1>User Details</h1>
-            <h2>{userDetails.user.n}</h2>
+            <h2>{user.name}</h2>
           
         </div>
     )

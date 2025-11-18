@@ -13,9 +13,9 @@ function App() {
    <div>
    {/* <CallingAPI/> */}
    {/* <ParentComponent/> */}
-   {/* <Component1/> */}
+   <Component1/>
    {/* <DemoA/> */}
-  <UserProfiles/>
+  {/* <UserProfiles/> */}
    </div>
   );
 }
