@@ -9,6 +9,11 @@ export const Component1 = () => {
 
     const [string, setString] = useState("Hello World");
 
+    const [user] = useState({
+        name:"Kethra Packiam",
+        age : "21"
+    })
+
    
 
     const handleChange = () => {
@@ -16,7 +21,10 @@ export const Component1 = () => {
     }
 
     return(
-        <MyContext.Provider value={string}>
+        <MyContext.Provider value={{
+            string: string,
+            user: user
+        }}>
             <h1>Component 1</h1>
             <h2>{string}</h2>
             <button onClick={handleChange}>change</button>
