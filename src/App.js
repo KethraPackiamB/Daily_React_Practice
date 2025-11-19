@@ -7,6 +7,7 @@ import { Component1 } from './UseContectConcept/Component1';
 import { DemoA } from './UseContectConcept/DemoA';
 import { UserProfiles } from './SingleResponsibilityPrinciple/UserProfiles';
 import { ImplementingTheme } from './ThemeSwitcher/ImplementingTheme';
+import { SettingTheme } from './ThemeSwitcher/SettingTheme';
 
 
 function App() {
@@ -17,7 +18,8 @@ function App() {
    {/* <Component1/> */}
    {/* <DemoA/> */}
   {/* <UserProfiles/> */}
-  <ImplementingTheme/>
+  {/* <ImplementingTheme/> */}
+  <SettingTheme/>
    </div>
   );
 }
