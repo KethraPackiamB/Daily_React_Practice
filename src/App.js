@@ -8,6 +8,7 @@ import { DemoA } from './UseContectConcept/DemoA';
 import { UserProfiles } from './SingleResponsibilityPrinciple/UserProfiles';
 import { ImplementingTheme } from './ThemeSwitcher/ImplementingTheme';
 import { SettingTheme } from './ThemeSwitcher/SettingTheme';
+import { ContextComponent } from './SimpleCounter/ContextComponent';
 
 
 function App() {
@@ -19,7 +20,8 @@ function App() {
    {/* <DemoA/> */}
   {/* <UserProfiles/> */}
   {/* <ImplementingTheme/> */}
-  <SettingTheme/>
+  {/* <SettingTheme/> */}
+  <ContextComponent/>
    </div>
   );
 }
