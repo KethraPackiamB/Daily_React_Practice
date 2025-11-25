@@ -16,7 +16,7 @@ import { Form } from "./Practicing/MemoConcept";
 import { MemoExample } from './Practicing/MemoExample';
 import { SubmittingForm } from './Practicing/SubmittingForm';
 import SimpleForm from './Practicing/SimpleForm';
-
+import { InputFocus } from './Practicing/InputFocus';
 
 function App() {
   return (
@@ -34,8 +34,9 @@ function App() {
   {/* <ClassComponent/> */}
   {/* <Form/> */}
   {/* <MemoExample/> */}
-  <SubmittingForm/>
+  {/* <SubmittingForm/> */}
   {/* <SimpleForm/> */}
+  <InputFocus/>
    </div>
   );
 }
