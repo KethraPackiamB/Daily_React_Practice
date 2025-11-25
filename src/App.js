@@ -15,6 +15,7 @@ import { ClassComponent } from './Practicing/ClassComponent';
 import { Form } from "./Practicing/MemoConcept";
 import { MemoExample } from './Practicing/MemoExample';
 import { SubmittingForm } from './Practicing/SubmittingForm';
+import SimpleForm from './Practicing/SimpleForm';
 
 
 function App() {
@@ -33,7 +34,8 @@ function App() {
   {/* <ClassComponent/> */}
   {/* <Form/> */}
   {/* <MemoExample/> */}
-  {/* <SubmittingForm/> */}
+  <SubmittingForm/>
+  {/* <SimpleForm/> */}
    </div>
   );
 }
