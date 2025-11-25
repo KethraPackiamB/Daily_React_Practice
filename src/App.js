@@ -9,6 +9,11 @@ import { UserProfiles } from './SingleResponsibilityPrinciple/UserProfiles';
 import { ImplementingTheme } from './ThemeSwitcher/ImplementingTheme';
 import { SettingTheme } from './ThemeSwitcher/SettingTheme';
 import { ContextComponent } from './SimpleCounter/ContextComponent';
+import { MappingConcept } from './Learning/MappingConcept';
+import { CreateElementConcept } from './Practicing/CreateElementConcept';
+import { ClassComponent } from './Practicing/ClassComponent';
+import { Form } from "./Practicing/MemoConcept";
+import { MemoExample } from './Practicing/MemoExample';
 
 
 function App() {
@@ -21,7 +26,12 @@ function App() {
   {/* <UserProfiles/> */}
   {/* <ImplementingTheme/> */}
   {/* <SettingTheme/> */}
-  <ContextComponent/>
+  {/* <ContextComponent/> */}
+  {/* <MappingConcept/> */}
+  {/* <CreateElementConcept/> */}
+  {/* <ClassComponent/> */}
+  {/* <Form/> */}
+  <MemoExample/>
    </div>
   );
 }
