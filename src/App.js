@@ -14,6 +14,7 @@ import { CreateElementConcept } from './Practicing/CreateElementConcept';
 import { ClassComponent } from './Practicing/ClassComponent';
 import { Form } from "./Practicing/MemoConcept";
 import { MemoExample } from './Practicing/MemoExample';
+import { SubmittingForm } from './Practicing/SubmittingForm';
 
 
 function App() {
@@ -31,7 +32,8 @@ function App() {
   {/* <CreateElementConcept/> */}
   {/* <ClassComponent/> */}
   {/* <Form/> */}
-  <MemoExample/>
+  {/* <MemoExample/> */}
+  {/* <SubmittingForm/> */}
    </div>
   );
 }
