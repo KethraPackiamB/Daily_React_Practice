@@ -17,6 +17,20 @@ import { MemoExample } from './Practicing/MemoExample';
 import { SubmittingForm } from './Practicing/SubmittingForm';
 import SimpleForm from './Practicing/SimpleForm';
 import { InputFocus } from './Practicing/InputFocus';
+import { Events } from './Practicing/Events';
+import { MouseEvents } from './Practicing/MouseEvents';
+import { FocusBlurEvents } from './Practicing/FocusBlurEvents';
+import { UseEffectPractice } from './Practicing/UseEffectPractice';
+import { WithOutDependencyArray } from './UseEffectConcepts/WithOutDependencyArray';
+import { WithDependencyArray } from './UseEffectConcepts/WithDependencyArray';
+import { WithDependencyValueArray } from './UseEffectConcepts/WIthDependencyValueArray';
+import { Comparing } from './UseEffectConcepts/Comparing';
+import EffectConcepts from './UseEffectConcepts/EffectConcepts';
+import { InitialitaionNeeds } from './Practicing/InitialitationNeeds';
+import { AdvertisementPage } from './TimeRelatedPrograms/AdvertisementPage';
+import { SetTimeOutConcept } from './TimeRelatedPrograms/SetTimeOutConcept';
+import { ApiFetchWithErrorhandling } from './Practicing/ApiFetchwithErrorHandling';
+import { ErrorHandlingWithTryCatch } from './Practicing/ErrorHandlingWithTryCatch';
 
 function App() {
   return (
@@ -36,7 +50,21 @@ function App() {
   {/* <MemoExample/> */}
   {/* <SubmittingForm/> */}
   {/* <SimpleForm/> */}
-  <InputFocus/>
+  {/* <InputFocus/> */}
+  {/* <Events/> */}
+  {/* <MouseEvents/> */}
+  {/* <FocusBlurEvents/> */}
+  {/* <UseEffectPractice/> */}
+  {/* <WithOutDependencyArray/> */}
+  {/* <WithDependencyArray/> */}
+  {/* <WithDependencyValueArray/> */}
+  {/* <Comparing/> */}
+  {/* <EffectConcepts/> */}
+  {/* <InitialitaionNeeds/> */}
+  {/* <AdvertisementPage/> */}
+  {/* <SetTimeOutConcept/> */}
+  {/* <ApiFetchWithErrorhandling/> */}
+  <ErrorHandlingWithTryCatch/>
    </div>
   );
 }
