@@ -32,6 +32,7 @@ import { SetTimeOutConcept } from './TimeRelatedPrograms/SetTimeOutConcept';
 import { ApiFetchWithErrorhandling } from './Practicing/ApiFetchwithErrorHandling';
 import { ErrorHandlingWithTryCatch } from './Practicing/ErrorHandlingWithTryCatch';
 import { AutoLogOut } from './RealWorldScenarioTasks/AutoLogOut';
+import { OtpVerification } from './RealWorldScenarioTasks/OtpVerification';
 
 function App() {
   return (
@@ -66,7 +67,8 @@ function App() {
   {/* <SetTimeOutConcept/> */}
   {/* <ApiFetchWithErrorhandling/> */}
   {/* <ErrorHandlingWithTryCatch/> */}
-  <AutoLogOut/>
+  {/* <AutoLogOut/> */}
+  <OtpVerification/>
    </div>
   );
 }
