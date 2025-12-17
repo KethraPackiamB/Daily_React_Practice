@@ -31,6 +31,7 @@ import { AdvertisementPage } from './TimeRelatedPrograms/AdvertisementPage';
 import { SetTimeOutConcept } from './TimeRelatedPrograms/SetTimeOutConcept';
 import { ApiFetchWithErrorhandling } from './Practicing/ApiFetchwithErrorHandling';
 import { ErrorHandlingWithTryCatch } from './Practicing/ErrorHandlingWithTryCatch';
+import { AutoLogOut } from './RealWorldScenarioTasks/AutoLogOut';
 
 function App() {
   return (
@@ -64,7 +65,8 @@ function App() {
   {/* <AdvertisementPage/> */}
   {/* <SetTimeOutConcept/> */}
   {/* <ApiFetchWithErrorhandling/> */}
-  <ErrorHandlingWithTryCatch/>
+  {/* <ErrorHandlingWithTryCatch/> */}
+  <AutoLogOut/>
    </div>
   );
 }
