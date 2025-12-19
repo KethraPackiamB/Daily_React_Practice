@@ -24,7 +24,7 @@ export const OtpVerification = () => {
   const verifyOtp = () => {
     if (otp === "123456") {
       setMessage("Otp Verified Successfully");
-      setTimeLeft(0);
+      setTimeLeft(60);
     } else {
       setMessage("Invalid OTP");
       setCanResend(true);
@@ -40,6 +40,7 @@ export const OtpVerification = () => {
 
   return (
     <div>
+    <center>
       <h2>OTP Verification</h2>
       <input
         type="text"
@@ -53,6 +54,7 @@ export const OtpVerification = () => {
       <button onClick={resendOtp} disabled={!canResend}>
         Resend OTP
       </button>
+      </center>
     </div>
   );
 };

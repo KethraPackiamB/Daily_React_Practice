@@ -33,6 +33,7 @@ import { ApiFetchWithErrorhandling } from './Practicing/ApiFetchwithErrorHandlin
 import { ErrorHandlingWithTryCatch } from './Practicing/ErrorHandlingWithTryCatch';
 import { AutoLogOut } from './RealWorldScenarioTasks/AutoLogOut';
 import { OtpVerification } from './RealWorldScenarioTasks/OtpVerification';
+import { SessionTimeoutAutoLogout } from './RealWorldScenarioTasks/SessionTimeoutAutoLogout';
 
 function App() {
   return (
@@ -68,7 +69,8 @@ function App() {
   {/* <ApiFetchWithErrorhandling/> */}
   {/* <ErrorHandlingWithTryCatch/> */}
   {/* <AutoLogOut/> */}
-  <OtpVerification/>
+  {/* <OtpVerification/> */}
+  <SessionTimeoutAutoLogout/>
    </div>
   );
 }
