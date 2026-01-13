@@ -34,6 +34,14 @@ import { ErrorHandlingWithTryCatch } from './Practicing/ErrorHandlingWithTryCatc
 import { AutoLogOut } from './RealWorldScenarioTasks/AutoLogOut';
 import { OtpVerification } from './RealWorldScenarioTasks/OtpVerification';
 import { SessionTimeoutAutoLogout } from './RealWorldScenarioTasks/SessionTimeoutAutoLogout';
+import { UseRefConcept } from './Learning/UseRefConcept';
+import { LoginFormWithUseRef } from './Learning/LoginFormWithUseRef';
+import { Advertisement } from './Practicing/Advertisement';
+import { AutomaticLogOut } from './Practicing/AutomaticLogOut';
+import { TypingIndicator } from './RealWorldScenarioTasks/TypingIndicator';
+import { ListMapping } from './Practicing/ListMapping';
+import { CounterApp } from './UseReducer/CounterApp';
+import BasicCounter from './UseReducer/BasicCounter';
 
 function App() {
   return (
@@ -70,7 +78,15 @@ function App() {
   {/* <ErrorHandlingWithTryCatch/> */}
   {/* <AutoLogOut/> */}
   {/* <OtpVerification/> */}
-  <SessionTimeoutAutoLogout/>
+  {/* <SessionTimeoutAutoLogout/> */}
+  {/* <UseRefConcept/> */}
+  {/* <LoginFormWithUseRef/> */}
+  {/* <Advertisement/> */}
+  {/* <AutomaticLogOut/> */}
+  {/* <TypingIndicator/> */}
+  {/* <ListMapping/> */}
+  {/* <CounterApp/> */}
+  <BasicCounter/>
    </div>
   );
 }

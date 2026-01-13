@@ -18,7 +18,7 @@ export const MouseEvents = () => {
       >
         Hello
       </h1>
-      {hover && <h2>This image is hover</h2>}
+      {hover && <h2>This image is in hover</h2>}
     </div>
   );
 };
